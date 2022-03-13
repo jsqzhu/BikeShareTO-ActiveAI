@@ -22,4 +22,4 @@ This repository contains datasets of ~2 years of BikeShare Toronto ysage data be
 </ol>
 
 * In the final model, what are the driving factors for the hourly demand at each station?
-Exam coefficient (regression) or feature importance (tree) in the final model 
+Examine coefficient (regression) or feature importance (tree) in the final model 
