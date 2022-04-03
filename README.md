@@ -5,7 +5,20 @@ This repository contains datasets of ~2 years of BikeShare Toronto ysage data be
 # Project Planning: Click [here](https://docs.google.com/spreadsheets/d/1uunIhnn-mC6sWdmMRQ0JEDSYrBgChMNY/edit?usp=sharing&ouid=101071991035913190287&rtpof=true&sd=true)
 
 # Data Sources
-
+<ol>
+ <li> Ridership
+  <ol> Trip ID </ol>
+  <ol> Trip Duration </ol>
+  <ol> Trip Start Station ID </ol>
+  <ol> Trip Start Station Location </ol>
+  <ol> Trip End Station ID </ol>
+  <ol> Trip End Station Location </ol>
+  <ol> Bike Id </ol>
+  <ol> User type </ol>
+ </li>
+ <li> Bike Share
+  <ol> station_id </ol>
+  
 # Research Questions
 * Can we predict hourly demand at each station?
  What are the possible factors at play?
