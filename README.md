@@ -5,8 +5,7 @@ This repository contains datasets of ~2 years of BikeShare Toronto ysage data be
 # Project Planning: Click [here](https://docs.google.com/spreadsheets/d/1uunIhnn-mC6sWdmMRQ0JEDSYrBgChMNY/edit?usp=sharing&ouid=101071991035913190287&rtpof=true&sd=true)
 
 # Data Sources
-<ol>
- <li> Ridership
+ Ridership
   <ol> Trip ID </ol>
   <ol> Trip Duration </ol>
   <ol> Trip Start Station ID </ol>
@@ -15,13 +14,10 @@ This repository contains datasets of ~2 years of BikeShare Toronto ysage data be
   <ol> Trip End Station Location </ol>
   <ol> Bike Id </ol>
   <ol> User type </ol>
- </li>
- <li> Bike Share
+ Bike share station
   <ol> station_id </ol>
- </li>
- <li> Weather data: [Environment Canada](https://climate.weather.gc.ca/)
-</li>
-  
+ Weather data: API from [Environment Canada](https://climate.weather.gc.ca/)
+
 # Research Questions
 * <b> Can we predict which of the two activities (ie. pickup vs dropoff) is in a higher demand at each station at a given time?
   What are the possible factors at play? </b>
