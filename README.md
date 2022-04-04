@@ -18,21 +18,27 @@ This repository contains datasets of ~2 years of BikeShare Toronto ysage data be
  </li>
  <li> Bike Share
   <ol> station_id </ol>
+ </li>
+ <li> Weather data: [Environment Canada](https://climate.weather.gc.ca/)
+</li>
   
 # Research Questions
-* Can we predict hourly demand at each station?
- What are the possible factors at play?
+* <b> Can we predict which of the two activities (ie. pickup vs dropoff) is in a higher demand at each station at a given time?
+  What are the possible factors at play? </b>
 <ol>
-  <li>Datetime: Time-of-Day (binned hour), Day-of-Week (weekday vs weekend), Holiday (Y/N), Events such as ActiveTO (Y/N), Other Events such as Lockdown </li>
-  <li>Point-of-interest: Distance to nearest subway station/subway station density per FSA? Distance to nearest park etc? Walkability score in the area </li>
+  <li>Datetime: Time-of-Day (binned hour), Day-of-Week (weekday vs weekend), Holiday (Y/N), Events such as ActiveTO (Y/N)</li>
+  <li>Point-of-interest: Distance to nearest subway station? Optional considerations: Distance to nearest park etc? Walkability score in the area </li>
   <li>Weather: temperature, rain/snow (Y/N), wind speed </li>
 </ol>
 
-* What is the best model to predict hourly demand at each station?
+  * <b> What is the best model to classify the demand for each of the two activities? </b>
 <ol>
-  <li>Models to try: </li>
-  <li>Hyperparameter tuning </li>
+  <li>Models to try: 
+      <li>Logistic</li>
+      <li>KNN</li>
+      <li>Tree-based models: Decision Tree, Random Forest</li>
+      <li>Ensemble models: AdaBoost, XGBoost </li></li>
 </ol>
 
-* In the final model, what are the driving factors for the hourly demand at each station?
+* <b> In the final model, what are the driving factors for the hourly demand at each station? </b>
 Examine coefficient (regression) or feature importance (tree) in the final model 
