@@ -10,7 +10,7 @@ The goal of this project is to *classify* whether droff-off volume is greater th
 
 ## Data Sources
 
-### Ridership
+### [Ridership](https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/)
 
 * Trip ID
 * Trip Duration
@@ -21,7 +21,7 @@ The goal of this project is to *classify* whether droff-off volume is greater th
 * Bike Id
 * User type
 
-### Bike share station
+### [Bike share station](https://open.toronto.ca/dataset/bike-share-toronto/)
 
 * station_id
 * capacity
