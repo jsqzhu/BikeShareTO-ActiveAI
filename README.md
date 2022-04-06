@@ -2,9 +2,8 @@
 
 ## Executive Summary
 
-This repository contains datasets of ~2 years of BikeShare Toronto usage data between 2020(ie. onset of Covid-19 pandemic) and 2022-02.
+This repository contains BikeShare Toronto usage data between 2020(ie. onset of Covid-19 pandemic) and 2022-02 with additional features such as weather and distance.
 The pandemic has been a boon to bikeshare when people in the city are avoiding public transit and taking advantage of the expanding bike paths. Each bikeshare station essntially serves two functions: bikes for pick-up and docks for drop-off. Correctly balancing the volume of each activities allows the city to manage the inventory at each station, and re-distribute bikes as needed. 
-
 The goal of this project is to *classify* whether droff-off volume is greater than pick-up at a given station during a given time frame.  
 
 ## Project Planning: Click [here](https://docs.google.com/spreadsheets/d/1uunIhnn-mC6sWdmMRQ0JEDSYrBgChMNY/edit?usp=sharing&ouid=101071991035913190287&rtpof=true&sd=true)
